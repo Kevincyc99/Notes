@@ -24,7 +24,7 @@
 
 <font color = "FF0000">插入图片3：网络路径</font>：
 
-![https://raw.githubusercontent.com/Kevincyc99/Notes/main/Games101Notes/Images_Notes/01_Tiger_Book.PNG?token=ALTJKMOIGP6USXR3AVI2Z6DALRJCU](https://raw.githubusercontent.com/Kevincyc99/Notes/main/Games101Notes/Images_Notes/01_Tiger_Book.PNG?token=ALTJKMOIGP6USXR3AVI2Z6DALRJCU)
+![https://raw.githubusercontent.com/Kevincyc99/Notes/main/Games101Notes/Images_Notes/01_Tiger_Book.PNG?token=ALTJKMNKYQ26IIYVQSX7CTLALRJ3K](https://raw.githubusercontent.com/Kevincyc99/Notes/main/Games101Notes/Images_Notes/01_Tiger_Book.PNG?token=ALTJKMNKYQ26IIYVQSX7CTLALRJ3K)
 
 
 
