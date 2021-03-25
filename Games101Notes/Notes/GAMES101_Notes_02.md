@@ -40,7 +40,7 @@
 
 &emsp;图形学中，向量默认是列向量表示 
 
-&emsp;直角坐标易于计算向量长度: ![](https://latex.codecogs.com/svg.latex?A%20=%20\left(\begin{matrix}x\\y\end{matrix}%20\right),%20||A||%20=%20\sqrt{x^2%20+%20y^2})
+&emsp;直角坐标易于计算向量长度: &emsp;![1](https://latex.codecogs.com/svg.latex?A%20=%20\left(\begin{matrix}x\\y\end{matrix}%20\right),%20||A||%20=%20\sqrt{x^2%20+%20y^2})
 
 ### Vector Multiplication
 
