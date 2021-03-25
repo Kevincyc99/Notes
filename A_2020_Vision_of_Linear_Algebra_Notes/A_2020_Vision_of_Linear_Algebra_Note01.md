@@ -8,7 +8,7 @@ Gilbert Strang
 
 ### Introduction: A New Way to Start Linear Algebra
 
-![Overview](Images_Notes/Overview_01.png)
+![Overview](https://raw.githubusercontent.com/Kevincyc99/Notes/main/A_2020_Vision_of_Linear_Algebra_Notes/Images_Notes/Overview_01.PNG?token=ALTJKMJOGC4QPZY7FSDZDO3ALRKVO)
 
 The first half:    Solving equations
 
@@ -30,7 +30,7 @@ S: Symmetric matrices     Q: Orthogonal matrices
 
 Orthogonal matrices tend to express a rotation
 
-![Linear Combination of Columns of A](Images_Notes/Linear_Combination_of_Columns_of_A_02.png)
+![Linear Combination of Columns of A](https://raw.githubusercontent.com/Kevincyc99/Notes/main/A_2020_Vision_of_Linear_Algebra_Notes/Images_Notes/Linear_Combination_of_Columns_of_A_02.PNG?token=ALTJKMIQZGDSGLNHL6ME7GLALRKW6)
 
 Think of every x<sub>1</sub>, x<sub>2</sub>, x<sub>3</sub> (all the vectors of x), the mixtures of these columns fill out a plane
 
@@ -38,23 +38,23 @@ The column space of A = <b>C</b>(A) = <b>plane</b>
 
 
 
-![Basis](Images_Notes/Basis_02.png)
+![Basis](https://raw.githubusercontent.com/Kevincyc99/Notes/main/A_2020_Vision_of_Linear_Algebra_Notes/Images_Notes/Basis_02.PNG?token=ALTJKMLZX3LXD6LUPUPK6V3ALRKYO)
 
 A full set of independent ones is called the <b>basis</b>.
 
-![Facts](Images_Notes\Facts_02.PNG)
+![Facts](https://raw.githubusercontent.com/Kevincyc99/Notes/main/A_2020_Vision_of_Linear_Algebra_Notes/Images_Notes/Facts_02.PNG?token=ALTJKMLYO2ESRMS7O26LCHTALRK2C)
 
 Equations:
 
-![Equations](Images_Notes\Equations_02.PNG)
+![Equations](https://raw.githubusercontent.com/Kevincyc99/Notes/main/A_2020_Vision_of_Linear_Algebra_Notes/Images_Notes/Equations_02.PNG?token=ALTJKMPNYSUMTKHJXSO7ESLALRK7S)
 
 Rank 1 matrix:
 
-![rank1 matrix](Images_Notes\rank1_matrix_02.PNG)
+![rank1 matrix](https://raw.githubusercontent.com/Kevincyc99/Notes/main/A_2020_Vision_of_Linear_Algebra_Notes/Images_Notes/rank1_matrix_02.PNG?token=ALTJKMLNRYIOORRNRGJVJHDALRLDG)
 
 Good things and bad things:
 
-![Good things and Bad things](Images_Notes\Good_Things_and_Bad_Things_02.PNG)
+![Good things and Bad things](https://raw.githubusercontent.com/Kevincyc99/Notes/main/A_2020_Vision_of_Linear_Algebra_Notes/Images_Notes/Good_Things_and_Bad_Things_02.PNG?token=ALTJKMOQDVIYMUTPTMVOQH3ALRLBO)
 
 ------
 
