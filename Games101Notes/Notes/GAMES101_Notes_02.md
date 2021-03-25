@@ -28,7 +28,7 @@
 
 ### Vector Normalization (归一化)
 
-&emsp;Unit Vector $\hat{a} = \vec{a} / ||\vec{a}||$   单位向量，长度为1，用来表达方向
+&emsp;Unit Vector ![](https://latex.codecogs.com/svg.latex?\hat{a}%20=%20\frac{\vec{a}%20}%20{||\vec{a}||})  单位向量，长度为1，用来表达方向
 
 ### Vector Addition
 
