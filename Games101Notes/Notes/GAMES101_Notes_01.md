@@ -82,7 +82,7 @@
 
 ### 	Differences  between Computer Graphics and Computer Vision
 
-![Differences between CG and CV](https://raw.githubusercontent.com/Kevincyc99/Games101Notes/main/Images_Notes/01_Difference_between_CG_and_CV.PNG)
+![Differences between CG and CV](https://raw.githubusercontent.com/Kevincyc99/Notes/main/Games101Notes/Images_Notes/01_Difference_between_CG_and_CV.PNG?token=ALTJKMOHOYCAFW6SSWFHDOTALRJBK)
 
 ------
 
@@ -92,8 +92,8 @@
 
 &emsp;&emsp;Fundamentals of Computer Graphics , 4th Edition, by Steve Marschner, Peter Shirley
 
-![Tiger Book](https://raw.githubusercontent.com/Kevincyc99/Games101Notes/main/Images_Notes/01_Tiger_Book.PNG)
+![Tiger Book](https://raw.githubusercontent.com/Kevincyc99/Notes/main/Games101Notes/Images_Notes/01_Tiger_Book.PNG?token=ALTJKMOIGP6USXR3AVI2Z6DALRJCU)
 
 #### 		&emsp;IDEs Recommend
 
-![IDEs recommended for CG](https://raw.githubusercontent.com/Kevincyc99/Games101Notes/main/Images_Notes/01_IDEs_recommended_for_CG.PNG)
+![IDEs recommended for CG](https://raw.githubusercontent.com/Kevincyc99/Notes/main/Games101Notes/Images_Notes/01_IDEs_recommended_for_CG.PNG?token=ALTJKMME7XR3Z6KYORQRF2LALRJDS)
