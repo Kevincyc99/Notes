@@ -18,15 +18,15 @@
 
 ## 链接
 
-<font color = "FF0000">插入图片1：</font>![Overview](E:\learning\Notes\A_2020_Vision_of_Linear_Algebra_Notes\Images_Notes\Overview_01.PNG)
+<font color = "FF0000">插入图片1：本地路径(从磁盘开始)</font>![E:\learning\Notes\A_2020_Vision_of_Linear_Algebra_Notes\Images_Notes\Overview_01.PNG](E:\learning\Notes\A_2020_Vision_of_Linear_Algebra_Notes\Images_Notes\Overview_01.PNG)
 
-<font color = "FF0000">插入图片2：</font>![Linear Combination](A_2020_Vision_of_Linear_Algebra_Notes\Images_Notes\Linear_Combination_of_Columns_of_A_02.PNG)
+<font color = "FF0000">插入图片2：局部路径(从本文件所在路径)</font>![../A_2020_Vision_of_Linear_Algebra_Notes\Images_Notes\Linear_Combination_of_Columns_of_A_02.PNG](../A_2020_Vision_of_Linear_Algebra_Notes\Images_Notes\Linear_Combination_of_Columns_of_A_02.PNG)
 
-<font color = "FF0000">插入图片3</font>：![Difference](https://raw.githubusercontent.com/Kevincyc99/Games101Notes/main/Images_Notes/01_Difference_between_CG_and_CV.PNG)
+<font color = "FF0000">插入图片3：网络路径</font>：
 
-```
-地址可以是1：本地路径(从磁盘开始)；&emsp;2：局部路径(从本文件所在路径)&emsp;3：网络路径
-```
+![https://raw.githubusercontent.com/Kevincyc99/Notes/main/Games101Notes/Images_Notes/01_Tiger_Book.PNG?token=ALTJKMOIGP6USXR3AVI2Z6DALRJCU](https://raw.githubusercontent.com/Kevincyc99/Notes/main/Games101Notes/Images_Notes/01_Tiger_Book.PNG?token=ALTJKMOIGP6USXR3AVI2Z6DALRJCU)
+
+
 
 <font color = "FF0000">网址超链接1：</font>[链接名称](链接地址)
 
