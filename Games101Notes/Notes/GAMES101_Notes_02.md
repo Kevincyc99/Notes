@@ -56,3 +56,47 @@
 
 &emsp;&emsp;交换律、结合律、分配律
 
+##### &emsp;Dot Product in Graphics
+
+&emsp;&emsp;获得两向量的夹角
+
+&emsp;&emsp;获得一个向量在另一个向量的投影（可以分解向量为两垂直分量）
+
+&emsp;&emsp;判断向量的“前后”（正面或背面）
+
+![02_Dot_product_forward_backward](E:\learning\Notes\Games101Notes\Images_Notes\02_Dot_product_forward_backward.PNG)
+
+#### &emsp;Cross Product (Vector Product)
+
+&emsp;向量（叉乘）向量 = 向量
+
+&emsp;右手定则（<img src="https://latex.codecogs.com/svg.image?\vec{a}" title="\vec{a}" />旋转到<img src="https://latex.codecogs.com/svg.image?\vec{b}" title="\vec{b}" />，拇指方向为叉积方向）
+
+##### &emsp;Properties
+
+![02_Cross_product_properties](E:\learning\Notes\Games101Notes\Images_Notes\02_Cross_product_properties.PNG)
+
+&emsp;<img src="https://latex.codecogs.com/svg.image?\vec{x}" title="\vec{x}" />叉乘<img src="https://latex.codecogs.com/svg.image?\vec{y}" title="\vec{y}" />得到<img src="https://latex.codecogs.com/svg.image?\vec{z}" title="\vec{z}" />，规定为右手坐标系
+
+&emsp;向量叉乘可以表示为矩阵相乘
+
+##### &emsp;&emsp;Cross Product in Graphics
+
+&emsp;&emsp;判定左右（内外）----->光栅化判断像素是否在三角形内
+
+### Matrices
+
+&emsp;Array of numbers (m x n = m rows, n columns)
+
+#### &emsp;Matrix-Matrix Multiplication
+
+&emsp;(M x N)(N x P) = (M x P)
+
+&emsp;Element (i, j) in the product is the dot product of row i from A and column j from B  
+
+#### &emsp;Properties
+
+结合律，分配律，没有交换律
+
+转置矩阵、逆矩阵、单位矩阵
+
