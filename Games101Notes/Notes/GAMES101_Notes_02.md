@@ -64,7 +64,7 @@
 
 &emsp;&emsp;判断向量的“前后”（正面或背面）
 
-![02_Dot_product_forward_backward](E:\learning\Notes\Games101Notes\Images_Notes\02_Dot_product_forward_backward.PNG)
+![02_Dot_product_forward_backward](https://raw.githubusercontent.com/Kevincyc99/Notes/main/Games101Notes/Images_Notes/02_Dot_product_forward_backward.PNG)
 
 #### &emsp;Cross Product (Vector Product)
 
@@ -74,7 +74,7 @@
 
 ##### &emsp;Properties
 
-![02_Cross_product_properties](E:\learning\Notes\Games101Notes\Images_Notes\02_Cross_product_properties.PNG)
+![02_Cross_product_properties](https://raw.githubusercontent.com/Kevincyc99/Notes/main/Games101Notes/Images_Notes/02_Cross_product_properties.PNG)
 
 &emsp;<img src="https://latex.codecogs.com/svg.image?\vec{x}" title="\vec{x}" />叉乘<img src="https://latex.codecogs.com/svg.image?\vec{y}" title="\vec{y}" />得到<img src="https://latex.codecogs.com/svg.image?\vec{z}" title="\vec{z}" />，规定为右手坐标系
 
@@ -90,13 +90,13 @@
 
 #### &emsp;Matrix-Matrix Multiplication
 
-&emsp;(M x N)(N x P) = (M x P)
+&emsp;&emsp;(M x N)(N x P) = (M x P)
 
-&emsp;Element (i, j) in the product is the dot product of row i from A and column j from B  
+&emsp;&emsp;Element (i, j) in the product is the dot product of row i from A and column j from B  
 
-#### &emsp;Properties
+##### &emsp;Properties
 
-结合律，分配律，没有交换律
+&emsp;&emsp;结合律，分配律，没有交换律
 
-转置矩阵、逆矩阵、单位矩阵
+&emsp;转置矩阵、逆矩阵、单位矩阵
 
