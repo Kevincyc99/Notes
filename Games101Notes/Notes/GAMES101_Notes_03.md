@@ -36,9 +36,9 @@ Viewing (Projection)
 
 Why？
 
-解决非线性变换的表达（平移）
+&emsp;解决非线性变换的表达（平移）
 
-引入齐次坐标可以统一所有的变换表达
+&emsp;引入齐次坐标可以统一所有的变换表达
 
 ![Why_Homogenous_Coordinates](https://raw.githubusercontent.com/Kevincyc99/Notes/main/Games101Notes/Images_Notes/03_Why_Homogenous_Coordinates.PNG)
 
@@ -56,4 +56,4 @@ Inverse Transform（逆变换）：乘变换矩阵的逆矩阵
 
 2维变换->3维变换（同样添加一个维度）
 
-先线性变换，后平移
+仿射变换先线性变换，后平移
