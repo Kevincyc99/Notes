@@ -157,3 +157,6 @@ glClear(GL_COLOR_BUFFER_BIT);
 //glClearColor是state-setting函数，glClear是state-using函数
 ```
 
+效果展示：
+
+![](https://github.com/Kevincyc99/Images-Store/raw/main/LearnOpenGL/Results/01_Hello_Window.png)
