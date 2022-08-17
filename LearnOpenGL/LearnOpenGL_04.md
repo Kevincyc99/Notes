@@ -306,11 +306,11 @@ stbi_set_flip_vertically_on_load(true);//y轴翻转
 
 图片的坐标轴向
 
-![]()
+![](https://github.com/Kevincyc99/Images-Store/raw/main/LearnOpenGL/Notes/07_Image_axis.png)
 
 纹理的坐标范围是(0,0)到(1,1)
 
-![]()
+![](https://github.com/Kevincyc99/Images-Store/raw/main/LearnOpenGL/Notes/08_texture_range.png)
 
 纹理的环绕方式
 
