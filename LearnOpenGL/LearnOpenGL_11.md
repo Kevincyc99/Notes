@@ -109,3 +109,78 @@ lightingShader.setVec3("light.diffuse",  0.5f, 0.5f, 0.5f); // 将光照调暗�
 lightingShader.setVec3("light.specular", 1.0f, 1.0f, 1.0f); 
 ```
 
+
+
+### 15	Lighting maps
+
+现实当中的物体通常不会只含有 一种材质，因此，需要引入<font color = 'green'>漫反射贴图(Diffuse maps)</font>、<font color = 'green'>镜面光贴图(Specular maps)</font>。
+
+#### Diffuse maps
+
+在着色器中使用漫反射贴图和纹理类似，区别是用sampler2D而不是vec3来存储材质结构体中的漫反射。
+
+sampler2D是<font color = 'green'>不透明类型(Opaque Type)</font>，即我们不能将它实例化，只能通过uniform来定义，否则会报错。
+
+```c++
+//片段着色器中
+struct Material {
+    sampler2D diffuse;
+    //环境光颜色在几乎所有情况下都与漫反射颜色相等，不用分开存储
+    vec3      specular;
+    float     shininess;
+}; 
+...
+in vec2 TexCoords;
+
+vec3 ambient = light.ambient * vec3(texture(material.diffuse, TexCoords));
+vec3 diffuse = light.diffuse * diff * vec3(texture(material.diffuse, TexCoords));
+//顶点着色器中
+layout (location = 2) in vec2 aTexCoords;
+out vec2 TexCoords;
+
+void main()
+{
+    ...
+    TexCoords = aTexCoords;
+}
+```
+
+```c++
+//使用漫反射贴图
+//1.更新VAO顶点属性指针
+//2.绑定采样器
+lightingShader.setInt("material.diffuse", 0);
+//3.在渲染循环中绑定纹理
+glActiveTexture(GL_TEXTURE0);
+glBindTexture(GL_TEXTURE_2D, diffuseMap);
+```
+
+#### Specular maps
+
+镜面贴图中，颜色越白，则镜面光越高，也就越反光，而纯黑色的部分完全不反光。
+
+可以通过漫反射贴图和镜面光贴图来模拟真实的物理材质。
+
+应用镜面光贴图的代码与漫反射贴图类似。
+
+```c++
+//片段着色器中
+struct Material {
+    sampler2D diffuse;
+    sampler2D specular;
+    float     shininess;
+}; 
+
+vec3 ambient = light.ambient * vec3(texture(material.diffuse, TexCoords));
+vec3 diffuse = light.diffuse * diff * vec3(texture(material.diffuse, TexCoords));
+vec3 specular = light.specular * specular * vec3(texture(material.specular, TexCoords));
+```
+
+```c++
+//1.更新VAO顶点属性指针(和漫反射贴图共用纹理坐标)
+//2.绑定采样器
+lightingShader.setInt("material.specular", 1);
+//3.在渲染循环中绑定纹理
+glActiveTexture(GL_TEXTURE1);
+glBindTexture(GL_TEXTURE_2D, specularMap);
+```
