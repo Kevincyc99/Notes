@@ -18,7 +18,7 @@
 4) 可以判断向量的左右关系;以及判断一点在三角形的内外;
 #### 矩阵
 1) 向量点乘可以看成一个nx1的矩阵的转置乘以一个nx1的矩阵  
-$$
+```math
 \vec{a} \cdot \vec{b} = \vec{a}^T\vec{b}=(x_a \quad y_a\quad z_a)
 \left(
 \begin{matrix}
@@ -26,9 +26,9 @@ x_b \\ y_b \\ z_b
 \end{matrix}
 \right)
  = (x_ax_b+y_ay_b+z_az_b)
-$$
+```
 2) 向量叉乘可以表示成一个特殊的矩阵与b向量的乘积  
-$$
+```math
 \vec{a}\times\vec{b} = A^*\vec{b}=
 \left(
 \begin{matrix}
@@ -40,9 +40,7 @@ $$
 x_b \\ y_b \\ z_b
 \end{matrix}
 \right)
-$$
-
-
+```
 ##### 虎书相关章节: 第二章2.4, 第五章  
 PS: 推荐观看3Blue1Brown的线性代数的本质,较为清晰地展现了线性代数的几何意义。  
 [【【官方双语/合集】线性代数的本质 - 系列合集】 ](https://www.bilibili.com/video/BV1ys411472E/)
