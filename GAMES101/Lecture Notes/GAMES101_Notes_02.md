@@ -44,7 +44,7 @@ x_b \\ y_b \\ z_b
 ##### 虎书相关章节: 第二章2.4, 第五章  
 PS: 推荐观看3Blue1Brown的线性代数的本质,较为清晰地展现了线性代数的几何意义。  
 [【【官方双语/合集】线性代数的本质 - 系列合集】 ](https://www.bilibili.com/video/BV1ys411472E/)
-尤其是点乘和叉乘的几何意义(07和08集),图形学中对于线性代数的利用,最频繁的就是这两种运算。
+尤其是点乘和叉乘的几何意义(07和08集),图形学中对于线性代数的利用,最频繁的就是这两种运算。  
 PPS:3D图形基础(3D Math Primer)中关于[点乘](https://gamemath.com/book/vectors.html#dot_product)和[叉乘](https://gamemath.com/book/vectors.html#cross_product)的介绍也很不错,推荐阅读。另外，这一章中的一篇参考文献,[The Geometry of the Dot and Cross Products](https://maa.org/sites/default/files/images/upload_library/4/vol6/Dray2/Dray.pdf),也很值得一读,用一张图就很直观地解释了施密特正交化的过程。
 
 
