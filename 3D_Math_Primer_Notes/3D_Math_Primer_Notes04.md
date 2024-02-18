@@ -70,7 +70,7 @@ m_{31}&m_{32}&m_{33}
 \end{matrix}
 \right]=v_x \vec{p} + v_y \vec{q} + v_z \vec{r}
 ```
-> 变换可以理解为基向量从 $(\vec{x},\vec{y},\vec{z})$ 到 $(\vec{p},\vec{q},\vec{r})$ 的变换,对 $\vec{v}$ 做相同的变换。
+> 变换可以理解为基向量从 $(\vec{x},\vec{y},\vec{z})$ 到 $(\vec{p},\vec{q},\vec{r})$ 的变换,对 $\vec{v}$ 做相同的变换。  
 > 矩阵M的各行就是新的一组基向量。    
 
 ### 4.3 线性代数的宏大图景  
