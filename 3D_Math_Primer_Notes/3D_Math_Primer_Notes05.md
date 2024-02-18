@@ -59,7 +59,7 @@ cos\theta & sin\theta & 0 \\
 ```math
 \vec{v} = \vec{v_{||}} + \vec{v_{\perp}};
 ```  
-平行于旋转轴的分量不受影响,故只需要求 $\vec{v^{\prime}_{\perp}}$ 。  
+平行于旋转轴的分量不受影响,故只需要求 $\vec{v_{\perp}^{\prime}}$ 。  
 由于 $\vec{v_{||}}$ 是 $\vec{v}$ 平行于 $\hat{n}$ 的分量,也可看作 是 $\vec{v}$ 在 $\hat{n}$ 方向的投影,即
  
 ```math
@@ -84,14 +84,14 @@ cos\theta & sin\theta & 0 \\
 因此  
 ```math
 \begin{aligned}
-\vec{v^{\prime}_{\perp}} &= cos\theta \vec{v_{\perp}} + sin\theta \vec{w} \\ 
+\vec{v_{\perp}^{\prime}} &= cos\theta \vec{v_{\perp}} + sin\theta \vec{w} \\ 
 &= cos\theta (\vec{v} - \vec{v_{||}}) + sin\theta (\hat{n} \times \vec{v}) \\ 
 &= cos\theta (\vec{v} - (\vec{v}\cdot\hat{n}) \hat{n}) + sin\theta (\hat{n} \times \vec{v}) \end{aligned}
 ```  
 因此,
 ```math
 \begin{aligned} 
-\vec{v^{\prime}} &= \vec{v_{||}} + \vec{v^{\prime}_{\perp}} \\ 
+\vec{v^{\prime}} &= \vec{v_{||}} + \vec{v_{\perp}^{\prime}} \\ 
 &= (\vec{v}\cdot\hat{n}) \hat{n} + cos\theta (\vec{v} - (\vec{v}\cdot\hat{n}) \hat{n}) + sin\theta (\hat{n} \times \vec{v}) \\ 
 &= (1 - cos\theta) (\vec{v}\cdot\hat{n}) \hat{n} + cos\theta \vec{v} + sin\theta (\hat{n} \times \vec{v})
 \end{aligned}
@@ -103,7 +103,7 @@ cos\theta & sin\theta & 0 \\
 \vec{p^{\prime}} = 
 \left[
 \begin{matrix}
-n^2_x(1-cos\theta) + cos\theta \\
+n_x(1-cos\theta)^2 + cos\theta \\
 n_x n_y(1-cos\theta) + n_z sin\theta \\ 
 n_x n_z(1-cos\theta) - n_y sin\theta
 \end{matrix}
@@ -113,8 +113,8 @@ n_x n_z(1-cos\theta) - n_y sin\theta
 \left[
 \begin{matrix}
 n_x n_y(1-cos\theta) - n_z sin\theta \\
-n^2_y(1-cos\theta) + cos\theta \\ 
-n_y n_z(1-cos\theta) + n_x sin\theta \\
+n_y(1-cos\theta)^2 + cos\theta \\ 
+n_y n_z(1-cos\theta) + n_x sin\theta
 \end{matrix}
 \right]^T \\ 
 \vec{r} &= [0 \quad 0 \quad 1], \quad
@@ -123,7 +123,7 @@ n_y n_z(1-cos\theta) + n_x sin\theta \\
 \begin{matrix}
 n_x n_z(1-cos\theta) + n_y sin\theta \\
 n_y n_z(1-cos\theta) - n_x sin\theta \\ 
-n^2_z(1-cos\theta) + cos\theta \\
+n_z(1-cos\theta)^2 + cos\theta
 \end{matrix}
 \right]^T
 \end{aligned}
@@ -142,15 +142,15 @@ R(\hat{n}, \theta) &=
 &= 
 \left[
 \begin{matrix}
-n^2_x(1-cos\theta) + cos\theta &
+n_x(1-cos\theta)^2 + cos\theta &
 n_x n_y(1-cos\theta) + n_z sin\theta & 
 n_x n_z(1-cos\theta) - n_y sin\theta \\
 n_x n_y(1-cos\theta) - n_z sin\theta &
-n^2_y(1-cos\theta) + cos\theta & 
+n_y(1-cos\theta)^2 + cos\theta & 
 n_y n_z(1-cos\theta) + n_x sin\theta \\
 n_x n_z(1-cos\theta) + n_y sin\theta &
 n_y n_z(1-cos\theta) - n_x sin\theta & 
-n^2_z(1-cos\theta) + cos\theta \\
+n_z(1-cos\theta)^2 + cos\theta
 \end{matrix}
 \right]
 \end{aligned}
@@ -178,8 +178,8 @@ k_x & 0 & 0 \\
 \begin{aligned}
 \vec{v_{\perp}} &= \vec{v} - \vec{v_{||}} \\ 
 \vec{v_{||}} &= (\vec{v}\cdot\hat{n})\hat{n}\\ 
-\vec{v^{\prime}_{||}} &= k(\vec{v}\cdot\hat{n})\hat{n}\\ 
-\vec{v^{\prime}} &= \vec{v^{\prime}_{||}} + \vec{v_{\perp}} \\ 
+\vec{v_{||}^{\prime}} &= k(\vec{v}\cdot\hat{n})\hat{n}\\ 
+\vec{v^{\prime}} &= \vec{v_{||}^{\prime}} + \vec{v_{\perp}} \\ 
 &= k(\vec{v}\cdot\hat{n})\hat{n} + \vec{v} - (\vec{v}\cdot\hat{n})\hat{n} \\ 
 &= \vec{v} + (k-1)(\vec{v}\cdot\hat{n})\hat{n} 
 \end{aligned}
@@ -191,7 +191,7 @@ k_x & 0 & 0 \\
 \vec{p^{\prime}} = 
 \left[
 \begin{matrix}
-(k-1)n^2_x + 1 \\
+(k-1)n_x^2 + 1 \\
 (k-1)n_xn_y \\ 
 (k-1)n_xn_z
 \end{matrix}
@@ -201,8 +201,8 @@ k_x & 0 & 0 \\
 \left[
 \begin{matrix}
 (k-1)n_xn_y \\
-(k-1)n^2_y + 1 \\ 
-(k-1)n_yn_z \\
+(k-1)n_y^2 + 1 \\ 
+(k-1)n_yn_z 
 \end{matrix}
 \right]^T \\ 
 \vec{r} &= [0 \quad 0 \quad 1], \quad
@@ -211,7 +211,7 @@ k_x & 0 & 0 \\
 \begin{matrix}
 (k-1)n_xn_z \\
 (k-1)n_yn_z \\ 
-(k-1)n^2_z + 1 \\
+(k-1)n_z^2 + 1 
 \end{matrix}
 \right]^T
 \end{aligned}
@@ -230,15 +230,15 @@ S(\hat{n}, k) &=
 &= 
 \left[
 \begin{matrix}
-(k-1)n^2_x + 1 &
+(k-1)n_x^2 + 1 &
 (k-1)n_xn_y & 
 (k-1)n_xn_z \\
 (k-1)n_xn_y &
-(k-1)n^2_y + 1 & 
+(k-1)n_y^2 + 1 & 
 (k-1)n_yn_z \\
 (k-1)n_xn_z &
 (k-1)n_yn_z & 
-(k-1)n^2_z + 1 \\
+(k-1)n_z^2 + 1 
 \end{matrix}
 \right]
 \end{aligned}
@@ -282,15 +282,15 @@ P_{yz} &=
 P(\hat{n}) &= 
 \left[
 \begin{matrix}
--n^2_x + 1 &
+-n_x^2 + 1 &
 -n_xn_y & 
 -n_xn_z \\
 -n_xn_y &
--n^2_y + 1 & 
+-n_y^2 + 1 & 
 -n_yn_z \\
 -n_xn_z &
 -n_yn_z & 
--n^2_z + 1 \\
+-n_z^2 + 1 
 \end{matrix}
 \right]
 \end{aligned}
@@ -302,15 +302,15 @@ P(\hat{n}) &=
 R(\hat{n}) &= 
 \left[
 \begin{matrix}
--2n^2_x + 1 &
+-2n_x^2 + 1 &
 -2n_xn_y & 
 -2n_xn_z \\
 -2n_xn_y &
--2n^2_y + 1 & 
+-2n_y^2 + 1 & 
 -2n_yn_z \\
 -2n_xn_z &
 -2n_yn_z & 
--2n^2_z + 1 \\
+-2n_z^2 + 1 
 \end{matrix}
 \right]
 \end{aligned}
