@@ -59,8 +59,8 @@ cos\theta & sin\theta & 0 \\
 ```math
 \vec{v} = \vec{v_{||}} + \vec{v_{\perp}};
 ```  
-平行于旋转轴的分量不受影响,故 $\vec{v^{\prime}\_{||}} = \vec{v\_{||}}$ ,只需要求 $\vec{v^{\prime}\_{\perp}}$ 。  
-由于 $\vec{v\_{||}}$ 是 $\vec{v}$ 平行于 $\hat{n}$ 的分量,也可看作 是 $\vec{v}$ 在 $\hat{n}$ 方向的投影,即
+平行于旋转轴的分量不受影响,故 $\vec{v^{\prime}_{||}}$ = $\vec{v_{||}}$ ,只需要求 $\vec{v^{\prime}_{\perp}}$ 。  
+由于 $\vec{v_{||}}$ 是 $\vec{v}$ 平行于 $\hat{n}$ 的分量,也可看作 是 $\vec{v}$ 在 $\hat{n}$ 方向的投影,即
  
 ```math
 \begin{aligned}
