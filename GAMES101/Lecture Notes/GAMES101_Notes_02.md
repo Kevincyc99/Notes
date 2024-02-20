@@ -1,9 +1,9 @@
 # GAMES101 Lecture Notes 02  
 ## Lecture 02  Review of Linear Algebra
 图形学涉及的学科知识:
-基础数学: 线性代数, 微积分, 数理统计
-基础物理: 光学, 力学
-其他进阶: 信号处理, 数值分析
+1.  基础数学: 线性代数, 微积分, 数理统计
+2.  基础物理: 光学, 力学
+3.  其他进阶: 信号处理, 数值分析
 
 线性代数, 图形学主要依赖对于vectors(向量),matrices(矩阵)的理解。
 （虎书中关于线性代数,还着重介绍了特征值分解和SVD分解, 其作用可以简单理解为把一个复杂矩阵分解为多个简单矩阵[如正交矩阵和对角矩阵]的乘积）
@@ -43,11 +43,12 @@ x_b \\ y_b \\ z_b
 ```
 
 ### 相关学习
-1.  虎书相关章节:第二章2.4, 第五章  
-2.  推荐观看3Blue1Brown的线性代数的本质,较为清晰地展现了线性代数的几何意义。  
+1. **虎书**相关章节:**第二章2.4, 第五章**  
+2. 推荐观看3Blue1Brown的**线性代数的本质**,较为清晰地展现了线性代数的几何意义。  
 [【【官方双语/合集】线性代数的本质 - 系列合集】 ](https://www.bilibili.com/video/BV1ys411472E/)
-尤其是点乘和叉乘的几何意义(07和08集),图形学中对于线性代数的利用,最频繁的就是这两种运算。  
-3.  3D图形基础(3D Math Primer)中关于[点乘](https://gamemath.com/book/vectors.html#dot_product)和[叉乘](https://gamemath.com/book/vectors.html#cross_product)的介绍也很不错,推荐阅读。另外，这一章中的一篇参考文献,[The Geometry of the Dot and Cross Products](https://maa.org/sites/default/files/images/upload_library/4/vol6/Dray2/Dray.pdf),也很值得一读,用一张图就很直观地解释了施密特正交化的过程。
+尤其是点乘和叉乘的几何意义(**07和08集**),图形学中对于线性代数的利用,最频繁的就是这两种运算。  
+3. **3D图形基础(3D Math Primer)** 相关章节: [第二章](https://gamemath.com/book/vectors.html)、[第四章](https://gamemath.com/book/matrixintro.html)  
+3D图形基础中关于[点乘](https://gamemath.com/book/vectors.html#dot_product)和[叉乘](https://gamemath.com/book/vectors.html#cross_product)的介绍很不错,推荐阅读。另外，第二章中的一篇参考文献,[The Geometry of the Dot and Cross Products](https://maa.org/sites/default/files/images/upload_library/4/vol6/Dray2/Dray.pdf),也很值得一读,用一张图就很直观地解释了施密特正交化的过程。
 
 
 
