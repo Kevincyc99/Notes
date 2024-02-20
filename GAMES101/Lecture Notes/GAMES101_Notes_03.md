@@ -98,12 +98,14 @@ sin\theta & cos\theta
 任何可以由矩阵乘法实现的变换都是线性变换。  
 线性变换有可加性和齐次性:
 ```math
-M(\vec{v_1}+\vec{v_2}) = M\vec{v_1} + M\vec{v_2}\\ 
-M(k\vec{v}) = kM\vec{v}
+\begin{aligned}
+M(\vec{v_1}+\vec{v_2}) &= M\vec{v_1} + M\vec{v_2}\\ 
+M(k\vec{v}) &= kM\vec{v}
+\end{aligned}
 ```   
 #### 齐次坐标(Homogenous Coordinates)  
 由于平移变换不是线性变换,无法用一个矩阵乘法表示。因此,引入齐次坐标来统一成仿射变换。  
-2D Point  : $(x, y, 1)^T$
+2D Point  : $(x, y, 1)^T$  
 2D Vector : $(x, y, 0)^T$  
 #### 仿射变换(Affine Transform)
 仿射变换 = 线性变换 + 平移变换  
@@ -137,7 +139,7 @@ y \\
 变换的顺序很重要。(一般是先线性变换再平移)
 ### 三维变换  
 同二维,齐次坐标多一个维度。  
-3D Point  : $(x, y, z, 1)^T$
+3D Point  : $(x, y, z, 1)^T$  
 3D Vector : $(x, y, z, 0)^T$  
 
 ### 相关学习
