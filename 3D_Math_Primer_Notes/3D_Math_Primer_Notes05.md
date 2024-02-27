@@ -3,7 +3,7 @@
 阅读时为第二版。 
 ## Chapter 5 矩阵和线性变换  
 ### 5.1 旋转  
-#### 5.1.1 2D旋转  
+#### 5.1.1 二维旋转  
 2D旋转是绕一点旋转;  
 绕原点逆时针旋转 $\theta$ :  
 ```math
@@ -15,7 +15,7 @@ cos\theta & sin\theta \\
 \end{matrix}
 \right]
 ```
-#### 5.1.2 3D绕坐标轴旋转  
+#### 5.1.2 三维绕坐标轴旋转  
 3D旋转是以一条直线为轴旋转。  
 绕x轴逆时针旋转 $\theta$ :  
 ```math
@@ -50,7 +50,7 @@ cos\theta & sin\theta & 0 \\
 \end{matrix}
 \right]
 ```  
-#### 5.1.3 3D绕任意轴旋转  
+#### 5.1.3 三维绕任意轴旋转  
 定义旋转轴为 $\hat{n}$ ,旋转角度为 $\theta$ 。  
 ```math
 \vec{v^{\prime}} = \vec{v}R(\hat{n},\theta)

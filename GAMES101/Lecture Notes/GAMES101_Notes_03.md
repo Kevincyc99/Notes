@@ -105,8 +105,8 @@ M(k\vec{v}) &= kM\vec{v}
 ```   
 #### 齐次坐标(Homogenous Coordinates)  
 由于平移变换不是线性变换,无法用一个矩阵乘法表示。因此,引入齐次坐标来统一成仿射变换。  
-2D Point  : $(x, y, 1)^T$  
-2D Vector : $(x, y, 0)^T$  
+2D Point  : (x, y, 1)^T^  
+2D Vector : (x, y, 0)^T^  
 #### 仿射变换(Affine Transform)
 仿射变换 = 线性变换 + 平移变换  
 ```math
@@ -139,14 +139,14 @@ y \\
 变换的顺序很重要。(一般是先线性变换再平移)
 ### 三维变换  
 同二维,齐次坐标多一个维度。  
-3D Point  : $(x, y, z, 1)^T$  
-3D Vector : $(x, y, z, 0)^T$  
+3D Point  : (x, y, z, 1)^T^  
+3D Vector : (x, y, z, 0)^T^  
 
 ### 相关学习
 1. **虎书**相关章节: **第六章**  
 2. 推荐观看3Blue1Brown的**线性代数的本质** 第3、4集,从基向量变换的角度解释了变换(向量与矩阵相乘)。  
 [【【官方双语/合集】线性代数的本质 - 系列合集】 ](https://www.bilibili.com/video/BV1ys411472E/)  
 1. **3D数学基础(3D Math Primer)** [第五章](https://gamemath.com/book/matrixtransforms.html)、[第六章](https://gamemath.com/book/matrixmore.html)  
-**(！！！注意,本书是左手系,与GAMES101不同,所以部分变换有一些不同)**  
+**(注意,本书是左手系,与GAMES101不同,所以部分变换有一些不同)**  
 3D数学基础第4章4.2,和3B1B类似,从基变换的角度解释变换矩阵的作用。
 [4.2 Geometric Interpretation of Matrix](https://gamemath.com/book/matrixintro.html#geometric_definition)  
