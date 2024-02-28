@@ -67,11 +67,11 @@ n_z & 0 & -n_x \\
 如何确定一个相机?
 1.  位置 $\vec{e}$ 
 2.  相机朝向 $\hat{g}$
-3.  相机的向上方向 $\hat{t}$
+3.  相机的向上方向 $\hat{t}$  
 ![Set_Camera](https://cdn.jsdelivr.net/gh/Kevincyc99/PicBed@master/Notes/Set_Camera.png)  
 
 为了方便,把相机固定放在原点,朝向-z轴方向,向上方向为y轴。  
-因此,把相机放在默认位置需要变换M~view~  
+因此,把相机放在默认位置需要变换 $M_{view}$  
 ```math
 \begin{aligned}
 M_{view} &= R_{view}T_{view} \\
@@ -97,7 +97,7 @@ x_{-g} & y_{-g} & z_{-g} & 0\\
 #### 投影变换
 ##### 正交投影
 1.  先将选定的长方体平移到原点(中心移到原点)
-2.  再把长方体缩放到[-1,1]^3^的正则(canonical)立方体  
+2.  再把长方体缩放到 $[-1,1]^3$ 的正则(canonical)立方体  
 
 ```math
 \begin{aligned}
@@ -144,7 +144,7 @@ M_{persp} &= M_{ortho}M_{persp \rightarrow ortho}
 > 在透视投影的过程中,中间平面的z值如何变化?
 
 个人推导:  
-假设近远平面之间某点P(x,y,z,1)^T^,z $\in$ (n,f) (此处n,f均取绝对值,故0 < n < f)  
+假设近远平面之间某点P $(x,y,z,1)^T$ ,z $\in$ (n,f) (此处n,f均取绝对值,故0 < n < f)  
 ```math
 \begin{aligned}
 P^{\prime} = M_{persp \rightarrow ortho} P &= 
@@ -173,15 +173,17 @@ nx/z \\ ny/z \\ n+f-nf/z \\ 1
 \end{matrix}
 \right]\\
 \end{aligned}
-```
+```  
 ```math
-z^{\prime} = n+f-nf/z \\
-设f(z) = n+f-nf/z, \\ 
+\begin{aligned}
+z^{\prime} = n+f-nf/z  \\  
+设f(z) = n+f-nf/z,  \\  
 解得 f^{\prime}(z) = nf / z^2 > 0, \quad f^{\prime \prime}(z) = -2nf / z^3 < 0 \\
+\end{aligned}
 ```
 关系大致如图  
 ![lecture4_exercise1](https://cdn.jsdelivr.net/gh/Kevincyc99/PicBed@master/Notes/lecture4_exercise1.jpg)  
-当z $\in$ (n,f)时,恒有 $z^{\prime} > z $ ,故z坐标在变换后|z|变大,向远平面靠拢。
+当z $\in$ (n,f)时,恒有 $z^{\prime}$ > z,故z坐标在变换后|z|变大,向远平面靠拢。
 
 ### 相关学习  
 1.  **虎书**相关章节: **第六章、第七章**
