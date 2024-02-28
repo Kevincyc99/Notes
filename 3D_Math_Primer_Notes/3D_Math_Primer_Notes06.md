@@ -38,7 +38,7 @@ w = 0, 可以视为一个位于无穷远的点,故可视为一个方向,而不�
 
 ### 6.5 四维矩阵和透视投影  
 本书介绍的透视投影,是小孔成像,成像与原物体在投影中心两侧,因此是倒立且反向的。实际中,由于投影的负号没有必要,因此把该成像对称到原物体的同侧。  
-理论:
+异侧:  
 ![perspective_projection_1](https://cdn.jsdelivr.net/gh/Kevincyc99/PicBed@master/Notes/perspective_projection_1.png)  
 ```math
 \begin{aligned}
@@ -46,7 +46,7 @@ w = 0, 可以视为一个位于无穷远的点,故可视为一个方向,而不�
 \vec{p^{\prime}} &= [-dx/z \quad -dy/z \quad -d]
 \end{aligned}
 ```  
-实际:  
+同侧:  
 ![perspective_projection_2](https://cdn.jsdelivr.net/gh/Kevincyc99/PicBed@master/Notes/perspective_projection_2.png)  
 ```math
 \begin{aligned}
