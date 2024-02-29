@@ -1,4 +1,4 @@
-# 3D Math Primer for Graphics and Game Development Notes 05
+# 3D Math Primer for Graphics and Game Development Notes 06
 书籍网址:[3D Math Primer for Graphics and Game Development](https://gamemath.com/book/)  
 阅读时为第二版。  
 ## Chapter 6 矩阵的更多内容

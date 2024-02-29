@@ -80,8 +80,8 @@ triple product(这里指标量三重积)
 ### 2.14 练习  
 20、21、22 有一定实用性,可以当面试题练习。  
 23、24均是后面变换里的例子。24是罗德里格斯公式的旋转矩阵。  
-#### 额外阅读
+### 额外阅读
 [The Geometry of the Dot and Cross Products](https://maa.org/sites/default/files/images/upload_library/4/vol6/Dray2/Dray.pdf)  
-#### 英语学习
+### 英语学习
 scrupulous 一丝不苟的  
 succinctly 简洁的
